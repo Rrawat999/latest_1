@@ -1,9 +1,9 @@
 pipeline {
     agent any
-    stages {
-        stage('Test') {
-            steps {
-                 echo 'Fail' exit 1
+    	stages {
+        		stage('Test') {
+            			steps {
+                 echo 'Fail' 
             }
         }
     }
